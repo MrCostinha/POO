@@ -6,11 +6,11 @@ public class Caneta {
     protected int carga;
     private boolean tampada;
 
-    public Caneta(String modelo, String cor, float ponta, int carga) {
+    public Caneta(String modelo, String cor, float ponta) {
         this.modelo = modelo;
         this.cor = cor;
         this.ponta = ponta;
-        this.carga = carga;
+        this.carga = 100;
         this.tampar();
     }
 
@@ -50,13 +50,13 @@ public class Caneta {
         if (this.tampada == true) {
             System.out.println("Caneta tampada não rabisca!");
         } else {
-            System.out.println("Rabiscando");
+            System.out.println("Rabiscando...");
         }
     }
-    protected void tampar() {
+    public void tampar() {
         this.tampada = true;
     }
-    protected void destampar() {
+    public void destampar() {
         this.tampada = false;
     }
 }
