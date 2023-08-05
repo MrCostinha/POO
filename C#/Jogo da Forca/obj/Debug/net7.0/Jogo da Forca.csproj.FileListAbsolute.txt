@@ -1,0 +1,20 @@
+C:\Users\mathe\OneDrive\Documentos\GitHub\POO\C#\Jogo da Forca\Jogo da Forca\obj\Debug\net7.0\Jogo da Forca.csproj.AssemblyReference.cache
+C:\Users\mathe\OneDrive\Documentos\GitHub\POO\C#\Jogo da Forca\Jogo da Forca\obj\Debug\net7.0\Jogo da Forca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mathe\OneDrive\Documentos\GitHub\POO\C#\Jogo da Forca\Jogo da Forca\obj\Debug\net7.0\Jogo da Forca.AssemblyInfoInputs.cache
+C:\Users\mathe\OneDrive\Documentos\GitHub\POO\C#\Jogo da Forca\Jogo da Forca\obj\Debug\net7.0\Jogo da Forca.AssemblyInfo.cs
+C:\Users\mathe\OneDrive\Documentos\GitHub\POO\C#\Jogo da Forca\Jogo da Forca\obj\Debug\net7.0\Jogo da Forca.csproj.CoreCompileInputs.cache
+C:\Users\mathe\OneDrive\Documentos\GitHub\POO\C#\Jogo da Forca\bin\Debug\net7.0\Jogo da Forca.exe
+C:\Users\mathe\OneDrive\Documentos\GitHub\POO\C#\Jogo da Forca\bin\Debug\net7.0\Jogo da Forca.deps.json
+C:\Users\mathe\OneDrive\Documentos\GitHub\POO\C#\Jogo da Forca\bin\Debug\net7.0\Jogo da Forca.runtimeconfig.json
+C:\Users\mathe\OneDrive\Documentos\GitHub\POO\C#\Jogo da Forca\bin\Debug\net7.0\Jogo da Forca.dll
+C:\Users\mathe\OneDrive\Documentos\GitHub\POO\C#\Jogo da Forca\bin\Debug\net7.0\Jogo da Forca.pdb
+C:\Users\mathe\OneDrive\Documentos\GitHub\POO\C#\Jogo da Forca\obj\Debug\net7.0\Jogo da Forca.csproj.AssemblyReference.cache
+C:\Users\mathe\OneDrive\Documentos\GitHub\POO\C#\Jogo da Forca\obj\Debug\net7.0\Jogo da Forca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mathe\OneDrive\Documentos\GitHub\POO\C#\Jogo da Forca\obj\Debug\net7.0\Jogo da Forca.AssemblyInfoInputs.cache
+C:\Users\mathe\OneDrive\Documentos\GitHub\POO\C#\Jogo da Forca\obj\Debug\net7.0\Jogo da Forca.AssemblyInfo.cs
+C:\Users\mathe\OneDrive\Documentos\GitHub\POO\C#\Jogo da Forca\obj\Debug\net7.0\Jogo da Forca.csproj.CoreCompileInputs.cache
+C:\Users\mathe\OneDrive\Documentos\GitHub\POO\C#\Jogo da Forca\obj\Debug\net7.0\Jogo da Forca.dll
+C:\Users\mathe\OneDrive\Documentos\GitHub\POO\C#\Jogo da Forca\obj\Debug\net7.0\refint\Jogo da Forca.dll
+C:\Users\mathe\OneDrive\Documentos\GitHub\POO\C#\Jogo da Forca\obj\Debug\net7.0\Jogo da Forca.pdb
+C:\Users\mathe\OneDrive\Documentos\GitHub\POO\C#\Jogo da Forca\obj\Debug\net7.0\Jogo da Forca.genruntimeconfig.cache
+C:\Users\mathe\OneDrive\Documentos\GitHub\POO\C#\Jogo da Forca\obj\Debug\net7.0\ref\Jogo da Forca.dll
