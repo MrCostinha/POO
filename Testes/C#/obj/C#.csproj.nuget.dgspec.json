@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\POO\\Testes\\C#\\C#.csproj": {}
+    "c:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\POO\\Testes\\C#\\C#.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\POO\\Testes\\C#\\C#.csproj": {
+    "c:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\POO\\Testes\\C#\\C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\POO\\Testes\\C#\\C#.csproj",
+        "projectUniqueName": "c:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\POO\\Testes\\C#\\C#.csproj",
         "projectName": "C#",
-        "projectPath": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\POO\\Testes\\C#\\C#.csproj",
+        "projectPath": "c:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\POO\\Testes\\C#\\C#.csproj",
         "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\POO\\Testes\\C#\\obj\\",
+        "outputPath": "c:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\POO\\Testes\\C#\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config"
