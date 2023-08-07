@@ -22,14 +22,13 @@ public class Forca {
     private Random random;
 
     public Forca() {
-        frutas = new Tema(new List<string> { "abacaxi", "jaca", "acerola", "melancia", "banana", "uva", "laranja", "manga", "morango" });
-        animais = new Tema(new List<string> { "cachorro", "gato", "jabuti", "coelho", "tucano", "papagaio", "macaco", "girafa" });
-        cores = new Tema(new List<string> { "laranja", "verde", "preto", "branco", "azul", "vermelho", "amarelo", "roxo", "rosa" });
-        geografia = new Tema(new List<string> { "brasil", "russia", "india", "china", "argentina", "colombia", "uruguai", "paraguai" });
-        esportes = new Tema(new List<string> { "futebol", "volei", "ciclismo", "basquete", "tenis", "natacao", "handebol", "atletismo" });  
+        frutas = new Tema(new List<string> { "abacaxi", "jaca", "tanjerina", "acerola", "melancia", "banana", "uva", "laranja", "manga", "morango" });
+        animais = new Tema(new List<string> { "cachorro", "gato", "tigre", "jabuti", "coelho", "bode", "tucano", "papagaio", "macaco", "girafa" });
+        cores = new Tema(new List<string> { "laranja", "verde", "preto", "branco", "marrom", "azul", "vermelho", "amarelo", "roxo", "rosa" });
+        geografia = new Tema(new List<string> { "brasil", "russia", "india", "china", "egito", "mexico", "argentina", "colombia", "uruguai", "paraguai" });
+        esportes = new Tema(new List<string> { "futebol", "volei", "ciclismo", "calistenia", "canoagem", "basquete", "tenis", "natacao", "handebol", "atletismo" });  
         
         random = new Random();
-
         letrasChutadas = new List<char>();
         palavrasChutadas = new List<string>();
         erros = 0;
@@ -87,7 +86,6 @@ public class Forca {
 
         while (erros < 6) {
             Console.WriteLine("Palavra: " + progresso);
-
             Console.Write("\nL para chutar uma letra ou P para chutar a palavra: ");
             char opcao = Console.ReadKey().KeyChar;
             Console.WriteLine();
@@ -123,14 +121,18 @@ public class Forca {
 
     private string ObterPalavraAleatoria(Tema tema) {
         int index = random.Next(tema.Palavras.Count);
+
         return tema.Palavras[index];
     }
 
     private char ChutarLetra() {
         char letra;
+
         Console.Write("Letra: ");
+
         while (true) {
             letra = Console.ReadKey().KeyChar;
+
             Console.WriteLine();
             if (letrasChutadas.Contains(letra)) {
                 Console.Write("Você já chutou essa letra! Tente outra: ");
@@ -144,6 +146,7 @@ public class Forca {
 
     private void VerificaLetra(char chute) {
         bool acertou = false;
+
         for (int i = 0; i < palavraSorteada.Length; i++) {
             if (palavraSorteada[i] == chute) {
                 progresso = progresso.Substring(0, i) + chute + progresso.Substring(i+1);
