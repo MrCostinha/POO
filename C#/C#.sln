@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jogo da Forca", "Jogo da Fo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teste", "Teste\Teste.csproj", "{728C9659-470E-4F33-A84E-AE071D0E7A9E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jogo da Velha", "Jogo da Velha\Jogo da Velha.csproj", "{BE5DE75B-9EFD-4A6F-A759-FB2FBC3EB90A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{728C9659-470E-4F33-A84E-AE071D0E7A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{728C9659-470E-4F33-A84E-AE071D0E7A9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{728C9659-470E-4F33-A84E-AE071D0E7A9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE5DE75B-9EFD-4A6F-A759-FB2FBC3EB90A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE5DE75B-9EFD-4A6F-A759-FB2FBC3EB90A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE5DE75B-9EFD-4A6F-A759-FB2FBC3EB90A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE5DE75B-9EFD-4A6F-A759-FB2FBC3EB90A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

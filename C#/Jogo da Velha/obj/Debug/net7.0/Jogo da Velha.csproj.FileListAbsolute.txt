@@ -1,0 +1,15 @@
+C:\Users\mathe\OneDrive\Documentos\GitHub\POO\C#\Jogo da Velha\obj\Debug\net7.0\Jogo da Velha.csproj.AssemblyReference.cache
+C:\Users\mathe\OneDrive\Documentos\GitHub\POO\C#\Jogo da Velha\obj\Debug\net7.0\Jogo da Velha.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mathe\OneDrive\Documentos\GitHub\POO\C#\Jogo da Velha\obj\Debug\net7.0\Jogo da Velha.AssemblyInfoInputs.cache
+C:\Users\mathe\OneDrive\Documentos\GitHub\POO\C#\Jogo da Velha\obj\Debug\net7.0\Jogo da Velha.AssemblyInfo.cs
+C:\Users\mathe\OneDrive\Documentos\GitHub\POO\C#\Jogo da Velha\obj\Debug\net7.0\Jogo da Velha.csproj.CoreCompileInputs.cache
+C:\Users\mathe\OneDrive\Documentos\GitHub\POO\C#\Jogo da Velha\bin\Debug\net7.0\Jogo da Velha.exe
+C:\Users\mathe\OneDrive\Documentos\GitHub\POO\C#\Jogo da Velha\bin\Debug\net7.0\Jogo da Velha.deps.json
+C:\Users\mathe\OneDrive\Documentos\GitHub\POO\C#\Jogo da Velha\bin\Debug\net7.0\Jogo da Velha.runtimeconfig.json
+C:\Users\mathe\OneDrive\Documentos\GitHub\POO\C#\Jogo da Velha\bin\Debug\net7.0\Jogo da Velha.dll
+C:\Users\mathe\OneDrive\Documentos\GitHub\POO\C#\Jogo da Velha\bin\Debug\net7.0\Jogo da Velha.pdb
+C:\Users\mathe\OneDrive\Documentos\GitHub\POO\C#\Jogo da Velha\obj\Debug\net7.0\Jogo da Velha.dll
+C:\Users\mathe\OneDrive\Documentos\GitHub\POO\C#\Jogo da Velha\obj\Debug\net7.0\refint\Jogo da Velha.dll
+C:\Users\mathe\OneDrive\Documentos\GitHub\POO\C#\Jogo da Velha\obj\Debug\net7.0\Jogo da Velha.pdb
+C:\Users\mathe\OneDrive\Documentos\GitHub\POO\C#\Jogo da Velha\obj\Debug\net7.0\Jogo da Velha.genruntimeconfig.cache
+C:\Users\mathe\OneDrive\Documentos\GitHub\POO\C#\Jogo da Velha\obj\Debug\net7.0\ref\Jogo da Velha.dll
