@@ -17,7 +17,9 @@ class Game {
     public void Play(string symbol) {
         Console.WriteLine("Posição do {0}: ", symbol);
         int position = int.Parse(Console.ReadLine());
-        position = (position/10 - 1)*10 + (position%10 - 1);
+        int row = position/10 - 1;
+        int column = position%10 - 1;
+        position = row+column;
         Validate(position);
 
         while(Validate(position) == false) {
@@ -39,7 +41,7 @@ class Game {
             }
             Console.WriteLine();
             if (i < 2) {
-                Console.WriteLine("-----------");
+                Console.WriteLine("-------------");
             }
         }
         Console.WriteLine();
