@@ -9,26 +9,27 @@ class Game {
     public void Initialize() {
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                int position = (i+1)*10 + j+1;
-                cells[i, j] = position.ToString();
+                int cell = (i+1)*10 + j+1;
+                cells[i, j] = cell.ToString();
             }
         }
     }
     public void Play(string symbol) {
         Console.WriteLine("Posição do {0}: ", symbol);
-        int position = int.Parse(Console.ReadLine());
-        int row = position/10 - 1;
-        int column = position%10 - 1;
-        position = row+column;
-        Validate(position);
-
-        while(Validate(position) == false) {
-            Console.WriteLine("Posição inválida! Digite novamente: ");
-            position = int.Parse(Console.ReadLine());
-            Validate(position);
-        }
+        int cell;
         
-        Update(position, symbol);
+        do {
+            cell = int.Parse(Console.ReadLine()) - 11;
+
+            Validate(cell);
+
+            if (Validate(cell) == false) {
+                Console.WriteLine("Posição inválida! Digite novamente: ");
+                cell = int.Parse(Console.ReadLine()) - 11;
+            }
+        } while(Validate(cell) == false);
+
+        Update(cell, symbol);
     }
     public void Show() {
         Console.WriteLine();
@@ -46,14 +47,12 @@ class Game {
         }
         Console.WriteLine();
     }
-    public void Update(int position, string symbol) {
-        int row = position/10;
-        int column = position%10;
-        cells[row, column] = symbol;
+    public void Update(int cell, string symbol) {
+        cells[cell/10, cell%10] = symbol;
     }
-    public bool Validate(int position) {
-        int row = position/10;
-        int column = position%10;
+    public bool Validate(int cell) {
+        int row = cell/10;
+        int column = cell%10;
 
         if (row < 0 || row > 2 || column < 0 || column > 2) {
             return false;
