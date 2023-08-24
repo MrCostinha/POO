@@ -6,7 +6,6 @@
             while (!jogo.CheckWin("X") && !jogo.CheckWin("O") && !jogo.CheckStalemate("X", "O")) {
                 jogo.Show();
                 jogo.Play("X");
-                jogo.Show();
 
                 if (jogo.CheckWin("X")) {
                     Console.WriteLine("Jogador 1: X venceu!");
@@ -18,6 +17,7 @@
                 }
 
                 jogo.Show();
+                
                 jogo.Play("O");
                 jogo.Show();
 
