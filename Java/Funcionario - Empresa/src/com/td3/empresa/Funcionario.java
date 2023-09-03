@@ -14,17 +14,17 @@ public class Funcionario {
         this.dataAdmissao = new GregorianCalendar();
     }
     public Funcionario(String cpf, String nome, GregorianCalendar dataAdmissao) {
-        this.cpf = cpf;
-        this.nome = nome;
-        this.dataAdmissao = dataAdmissao;
+        setCpf(cpf);
+        setNome(nome);
+        setDataAdmissao(dataAdmissao);
     }
     public Funcionario(String cpf, String nome, char sexo, float salarioBruto, GregorianCalendar dataNascimento, GregorianCalendar dataAdmissao) {
-        this.cpf = cpf;
-        this.nome = nome;
-        this.sexo = sexo;
-        this.salarioBruto = salarioBruto;
-        this.dataNascimento = dataNascimento;
-        this.dataAdmissao = dataAdmissao;
+        setCpf(cpf);
+        setNome(nome);
+        setSexo(sexo);
+        setSalarioBruto(salarioBruto);
+        setDataNascimento(dataNascimento);
+        setDataAdmissao(dataAdmissao);
     }
 
     public String getCpf() {
@@ -65,14 +65,14 @@ public class Funcionario {
     }
 
     public boolean validarCPF(String cpf) {
-        if (cpf.length() != 14) {
+        if (cpf.length() != 14 || cpf.charAt(3) != '.' || cpf.charAt(7) != '.' || cpf.charAt(11) != '-') {
             return false;
         }
 
         return true;
     }
     public boolean validarDataNascimento(GregorianCalendar dataNascimento) {
-        if (dataNascimento.get(GregorianCalendar.YEAR) < 1920) {
+        if (dataNascimento.get(GregorianCalendar.YEAR) < 1920 || idade(dataNascimento) < 18) {
             return false;
         }
 
@@ -109,9 +109,11 @@ public class Funcionario {
 
     @Override
     public String toString() {
-        return "Funcionário [ Nome = " + nome + ", Sexo = " + sexo + ", CPF = " + cpf + 
-        ", Data de Nascimento = " + dataNascimento + ", Idade = " + idade(dataNascimento) + 
-        ", Data de Admissão = " + dataAdmissao + "]";
+        return "Funcionário [ Nome = " + nome + ", Sexo = " + sexo + ", CPF = " + cpf + ", Data de Nascimento = " + 
+        dataNascimento.get(GregorianCalendar.DAY_OF_MONTH) + "/" + (dataNascimento.get(GregorianCalendar.MONTH)+1) + 
+        "/" + dataNascimento.get(GregorianCalendar.YEAR) + ", Idade = " + idade(dataNascimento) +
+        ", Data de Admissão = " + dataAdmissao.get(GregorianCalendar.DAY_OF_MONTH) + "/" + (dataAdmissao.get(GregorianCalendar.MONTH)+1) + 
+        "/" + dataAdmissao.get(GregorianCalendar.YEAR) + " ]";
     }
 
     @Override
@@ -122,6 +124,7 @@ public class Funcionario {
                 return true;
             }
         }
+
         return false;
     }
 }

@@ -12,6 +12,7 @@ public class Teste {
                 System.out.println("Valor de N inválido!");
             }
         } while (n<2 || n>10000 || n%2 != 0);
+
         int m[] = new int[n];
         char l[] = new char[n];
         for (int i = 0; i < n; i++) {
@@ -31,5 +32,7 @@ public class Teste {
         scan.close();
 
         Bota bota = new Bota(n, m, l);
+
+        bota.formarPares(n, m, l);
     }
 }

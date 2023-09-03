@@ -7,8 +7,6 @@ public class Bota {
         setN(n);
         setM(m);
         setL(l);
-
-        FormarPares(n, m, l);
     }
 
     public int getN() {
@@ -30,7 +28,7 @@ public class Bota {
         L = l;
     }
     
-    public void FormarPares(int n, int m[], char l[]) {
+    public void formarPares(int n, int m[], char l[]) {
         int pares = 0;
 
         for (int i = 0; i < n; i++) {

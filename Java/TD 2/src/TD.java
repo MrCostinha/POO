@@ -11,52 +11,53 @@ public class TD {
 
         switch (questao) {
             case 1:
-                System.out.print("X: ");
-                float x = scanner.nextFloat();
-                System.out.print("Y: ");
-                float y = scanner.nextFloat();
+                System.out.print("Primeiro valor: ");
+                float valor1 = scanner.nextFloat();
+                System.out.print("Segundo valor: ");
+                float valor2 = scanner.nextFloat();
                 System.out.print("Operação: ");
                 char operacao = scanner.next().charAt(0);
 
                 switch (operacao) {
                     case '+':
-                        System.out.println("Soma: " + (x+y));
+                        System.out.println("Soma: " + (valor1+valor2));
                         break;
                     case '-':
-                        System.out.println("Subtração: " + (x-y));
+                        System.out.println("Subtração: " + (valor1-valor2));
                         break;
                     case '*':
-                        System.out.println("Multiplicação: " + (x*y));
+                        System.out.println("Multiplicação: " + (valor1*valor2));
                         break;
                     case '/':
-                        if (y == 0) {
+                        if (valor2 == 0) {
                             System.out.println("Erro! Divisão por zero");
                             break;
                         }
-                        System.out.println("Divisão: " + (x/y));
+                        System.out.println("Divisão: " + (valor1/valor2));
                         break;
                     default:
                         System.out.println("Operação inválida!");
                 }
                 break;
             case 2:
-                System.out.print("N: ");
-                int N2 = scanner.nextInt();
-                int A2[] = new int[N2];
+                System.out.print("Quantidade: ");
+                int tamanho = scanner.nextInt();
+                int inteiros[] = new int[tamanho];
                 int pares = 0, impares = 0, positivos = 0, negativos = 0, neutros = 0;
 
-                for (int i = 0; i < N2; i++) {
-                    A2[i] = scanner.nextInt();
+                for (int i = 0; i < tamanho; i++) {
+                    System.out.print("Valor " + (i+1) + ": ");
+                    inteiros[i] = scanner.nextInt();
                 }
-                for (int i = 0; i < N2; i++) {
-                    if (A2[i] > 0) {
+                for (int i = 0; i < tamanho; i++) {
+                    if (inteiros[i] > 0) {
                         positivos++;
-                        if (A2[i] % 2 == 0) {
+                        if (inteiros[i] % 2 == 0) {
                             pares++;
                         } else {
                             impares++;
                         }
-                    } else if (A2[i] < 0) {
+                    } else if (inteiros[i] < 0) {
                         negativos++;
                     } else {
                         neutros++;
@@ -71,21 +72,21 @@ public class TD {
                 System.out.println("Neutros: " + neutros);
                 break;
             case 3:
-                System.out.print("N: ");
-                int N3 = scanner.nextInt();
-                int A3[] = new int[N3];
+                System.out.print("Quantidade: ");
+                int quantidade = scanner.nextInt();
+                int elementos[] = new int[quantidade];
                 int maior = 0;
 
-                for (int i = 0; i < N3; i++) {
-                    A3[i] = random.nextInt();
+                for (int i = 0; i < quantidade; i++) {
+                    elementos[i] = random.nextInt();
                 }
-                for (int i = 1; i < N3; i++) {
-                    if (A3[i] > A3[maior]) {
+                for (int i = 1; i < quantidade; i++) {
+                    if (elementos[i] > elementos[maior]) {
                         maior = i;
                     }
                 }
 
-                System.out.println("Maior: " + A3[maior]);
+                System.out.println("Maior: " + elementos[maior]);
                 break;
             case 4:
                 String senha;
