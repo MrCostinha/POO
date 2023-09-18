@@ -8,11 +8,11 @@
                 jogo.Play("X");
 
                 if (jogo.CheckWin("X")) {
-                    Console.WriteLine("Jogador 1: X venceu!");
+                    Console.WriteLine("\nX venceu!");
                     break;
                 }
                 if (jogo.CheckStalemate("X", "O")) {
-                    Console.WriteLine("Deu Velha!");
+                    Console.WriteLine("\nDeu Velha!");
                     break;
                 }
 
@@ -22,11 +22,11 @@
                 jogo.Show();
 
                 if (jogo.CheckWin("O")) {
-                    Console.WriteLine("Jogador 2: O venceu!");
+                    Console.WriteLine("\nO venceu!");
                     break;
                 }
                 if (jogo.CheckStalemate("X", "O")) {
-                    Console.WriteLine("Deu Velha!");
+                    Console.WriteLine("\nDeu Velha!");
                     break;
                 }
             }
