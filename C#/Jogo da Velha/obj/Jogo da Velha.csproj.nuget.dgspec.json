@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\POO\\C#\\Jogo da Velha\\Jogo da Velha.csproj": {}
+    "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\POO\\C#\\Jogo da Velha\\Jogo da Velha.csproj": {}
   },
   "projects": {
-    "c:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\POO\\C#\\Jogo da Velha\\Jogo da Velha.csproj": {
+    "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\POO\\C#\\Jogo da Velha\\Jogo da Velha.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\POO\\C#\\Jogo da Velha\\Jogo da Velha.csproj",
+        "projectUniqueName": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\POO\\C#\\Jogo da Velha\\Jogo da Velha.csproj",
         "projectName": "Jogo da Velha",
-        "projectPath": "c:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\POO\\C#\\Jogo da Velha\\Jogo da Velha.csproj",
+        "projectPath": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\POO\\C#\\Jogo da Velha\\Jogo da Velha.csproj",
         "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\POO\\C#\\Jogo da Velha\\obj\\",
+        "outputPath": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\POO\\C#\\Jogo da Velha\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config"
