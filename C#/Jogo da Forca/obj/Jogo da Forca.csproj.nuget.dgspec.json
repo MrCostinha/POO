@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\POO\\C#\\Jogo da Forca\\Jogo da Forca.csproj": {}
+    "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\POO\\C#\\Jogo da Forca\\Jogo da Forca.csproj": {}
   },
   "projects": {
-    "c:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\POO\\C#\\Jogo da Forca\\Jogo da Forca.csproj": {
+    "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\POO\\C#\\Jogo da Forca\\Jogo da Forca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\POO\\C#\\Jogo da Forca\\Jogo da Forca.csproj",
+        "projectUniqueName": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\POO\\C#\\Jogo da Forca\\Jogo da Forca.csproj",
         "projectName": "Jogo da Forca",
-        "projectPath": "c:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\POO\\C#\\Jogo da Forca\\Jogo da Forca.csproj",
+        "projectPath": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\POO\\C#\\Jogo da Forca\\Jogo da Forca.csproj",
         "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\POO\\C#\\Jogo da Forca\\obj\\",
+        "outputPath": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\POO\\C#\\Jogo da Forca\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
