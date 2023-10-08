@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\POO\\C#\\Jogo da Forca\\Jogo da Forca.csproj",
+      "projectUniqueName": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\POO\\C#\\Jogo da Forca\\Jogo da Forca.csproj",
       "projectName": "Jogo da Forca",
-      "projectPath": "c:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\POO\\C#\\Jogo da Forca\\Jogo da Forca.csproj",
+      "projectPath": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\POO\\C#\\Jogo da Forca\\Jogo da Forca.csproj",
       "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\POO\\C#\\Jogo da Forca\\obj\\",
+      "outputPath": "C:\\Users\\mathe\\OneDrive\\Documentos\\GitHub\\POO\\C#\\Jogo da Forca\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -66,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.1.23463.5\\RuntimeIdentifierGraph.json"
       }
     }
   }
